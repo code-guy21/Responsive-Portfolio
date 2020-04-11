@@ -141,14 +141,16 @@ footer {
 	height: 50px;
 }
 
-@media screen and (max-width: 980px) {
 
+/* media query for large screen sizes */
+@media screen and (max-width: 980px) {
 
 	section {
 		width: 90%;
 	}
 }
 
+/* media query for medium screen sizes */
 @media screen and (max-width: 768px) {
 
 	section {
@@ -156,6 +158,7 @@ footer {
 	}
 }
 
+/* media query for small screen sizes */
 @media screen and (max-width: 640px) {
 
 	section {
@@ -165,6 +168,7 @@ footer {
 	nav {
 		text-align: center;
 		min-width: 100%;
+		padding-right: 0px;
 	}
 
 	main {
@@ -180,6 +184,8 @@ footer {
 	.heading {
 		text-align: center;
 		min-width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
 	.project {
