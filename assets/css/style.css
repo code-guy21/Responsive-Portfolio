@@ -5,6 +5,7 @@ header {
 }
 
 main {
+	margin-bottom: 20px;
 	min-height: calc(100vh - 158px);
 }
 
@@ -172,6 +173,16 @@ footer {
 	nav {
 		text-align: center;
 		min-width: 100%;
+	}
+
+	main {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#bio-pic {
+		float: none;
+		width: 100%;
 	}
 
 	.heading {
